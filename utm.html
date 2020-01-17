@@ -11,8 +11,13 @@
 </script>
 
 <script type="text/html" data-help-name="utm">
-    <p>If <code>msg.payload</code> contains .lat and .lon properties, this node adds a corresponding UTM location as <b>msg.payload.utm</b>.</p>
-    <p>If the object contains a <code>msg.payload.utm</code> property and not .lat and .lon they will be created.</p>
+    <p>If <code>msg.payload</code> contains <code>.lat</code> and <code>.lon</code> properties, this node adds a corresponding UTM location as <code>msg.payload.utm</code>.</p>
+    <p>If the object contains a <code>msg.payload.utm</code> property and not <code>.lat</code> and <code>.lon</code> they will be created.</p>
+    <p>The <code>.utm</code> property should look like this:
+    <ul><li><code>.x</code> - eastings</li>
+        <li><code>.y</code> - northings</li>
+        <li><code>.z</code> - zone - e.g. 30U</li>
+    </ul>
 </script>
 
 <script type="text/javascript">
