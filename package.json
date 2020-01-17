@@ -1,0 +1,24 @@
+{
+    "name"          : "node-red-contrib-utm",
+    "version"       : "0.1.0",
+    "description"   : "A Node-RED node to convert co-ordinates to and from utm",
+    "dependencies"  : {
+        "utm-latlng": "^1.0.6"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/dceejay/utm"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "map", "world", "utm" ],
+    "node-red"      : {
+        "nodes"     : {
+            "utm": "utm.js"
+        }
+    },
+    "author": {
+        "name": "Dave Conway-Jones",
+        "email": "ceejay@vnet.ibm.com",
+        "url": "http://nodered.org"
+    }
+}
