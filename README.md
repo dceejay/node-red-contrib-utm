@@ -1,7 +1,7 @@
 node-red-contrib-utm
 ====================
 
-A <a href="http://nodered.org" target="_new">Node-RED</a> node convert co-ordinates in Latitude and Longitude to and from UTM.
+A <a href="http://nodered.org" target="_new">Node-RED</a> node to convert co-ordinates in Latitude and Longitude to and from UTM format.
 
 ### Install
 
