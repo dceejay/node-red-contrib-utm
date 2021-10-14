@@ -9,12 +9,13 @@ Either use the Node-RED menu - manage palette - install option, or run the follo
 
     npm i node-red-contrib-utm
 
+
 ### Usage
 
 If `msg.payload` contains `.lat` and `.lon` properties, this node adds a corresponding UTM location as `msg.payload.utm`.
 
-If the object contains a `msg.payload.utm` property as below, and not `.lat` and `.lon` they will be created.
+If the object contains a `msg.payload.utm` property as below, and not `.lat` and `.lon`, then .lat and .lon will be created.
 
     msg.payload.utm.x = eastings
     msg.payload.utm.y = northings
-    msg.payload.utm.z = zone code - eg 30U 
+    msg.payload.utm.z = zone code - eg 30U
