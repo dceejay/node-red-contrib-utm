@@ -20,7 +20,7 @@ module.exports = function(RED) {
                 if (zn > 0 && zn <= 60) {
                     msg.payload.lat = msg.payload.lat || ll.lat;
                     msg.payload.lon = msg.payload.lon || ll.lng;
-                    if (msg.payload.lat < -90 || msg.payload.lat > 90 || msg.payload.lon < -180 || msg.payload.lat > 180 ) {
+                    if (msg.payload.lat < -90 || msg.payload.lat > 90 || msg.payload.lon < -180 || msg.payload.lon > 180 ) {
                         node.error("Conversion out of range",msg);
                     }
                 }
